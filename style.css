@@ -31,3 +31,19 @@ li {
   font-family: 'Amatic SC', cursive;
   font-size: 30px;
 }
+
+#cover {
+  background: url("https://static.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg") no-repeat center bottom;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 500px;
+}
+
+.cover-content {
+  color: #FFF;
+  text-align:center;
+}
+
+.cover-content a {
+  color: #FFF;
+}
