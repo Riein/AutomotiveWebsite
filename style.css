@@ -57,3 +57,13 @@ li {
 .cover-content a {
   color: #FFF;
 }
+
+.items {
+  text-align: center;
+  width:100%;
+  background-color: rgb(255,255,255);
+}
+
+.section1Body {
+  max-width: 500px;
+}
