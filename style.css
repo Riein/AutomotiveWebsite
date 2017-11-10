@@ -64,6 +64,19 @@ li {
   background-color: rgb(255,255,255);
 }
 
+.section1Header {
+  font-family: 'Raleway', sans-serif;
+  padding-bottom: 20px;
+}
+
 .section1Body {
   max-width: 500px;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  font-family: 'Abel', sans-serif;
 }
