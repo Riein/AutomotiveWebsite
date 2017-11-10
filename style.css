@@ -89,3 +89,15 @@ li {
 p {
   font-family: 'Abel', sans-serif;
 }
+
+.footer {
+  background-color: rgb(20, 21, 22);
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin: 20px auto 0 auto;
+}
+
+.footer li {
+  color: white;
+}
