@@ -79,6 +79,7 @@ body {
   width: 60%;
   text-align: left;
   margin: 0 auto;
+  font-size: 18px;
 }
 
 .section1Body h2 {
@@ -119,13 +120,13 @@ p {
 
 .services-left {
   float:left;
-  margin-right: 0;
-  width:25%;
+  margin-right: 0%;
+  width:50%;
 }
 .services-right {
   float:right;
-  width: 47.5%;
-  margin-right: 25%;
+  width: 50%;
+  margin-right: 0%;
 }
 
 .services-content li {
