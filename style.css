@@ -14,11 +14,11 @@ body {
   z-index: 10000;
 }
 
-ul {
+.navigation ul {
   padding:0;
 }
 
-li {
+.navigation li {
   color:#14213D;
   font-family: 'Abel', sans-serif;
   display: inline-block;
@@ -79,6 +79,7 @@ li {
   width: 60%;
   text-align: left;
   margin: 0 auto;
+  font-size: 18px;
 }
 
 .section1Body h2 {
@@ -88,18 +89,6 @@ li {
 
 p {
   font-family: 'Abel', sans-serif;
-}
-
-.footer {
-  background-color: rgb(20, 21, 22);
-  width: 100%;
-  display: inline-block;
-  text-align: center;
-  margin: 20px auto 0 auto;
-}
-
-.footer li {
-  color: white;
 }
 
 /* Link section */
@@ -120,4 +109,64 @@ p {
 
 .navigation a:active {
   text-decoration: none;
+}
+
+/* Services section */
+
+.services-content {
+  width: 80%;
+  margin: 20px 25%;
+}
+
+.services-left {
+  float:left;
+  margin-right: 0%;
+  width:50%;
+}
+.services-right {
+  float:right;
+  width: 50%;
+  margin-right: 0%;
+}
+
+.services-content li {
+  color:#14213D;
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 16px 24px;
+}
+
+h4.services-h4 {
+  color: rgb(22, 44, 205);
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+
+ul.services-ul {
+
+}
+
+/* Footer Section */
+
+.footer {
+  background-color: rgb(20, 21, 22);
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin: 20px auto 0 auto;
+}
+
+.footer ul {
+  padding: 0;
+}
+
+.footer li {
+  color: white;
+  font-family: 'Abel', sans-serif;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 16px 24px;
 }
