@@ -34,13 +34,33 @@
 		      <h1>Contact Paul's Motor Inc</h1>
         </div>
 
-        <div class="section1Body">
-          <h2></h2>
+        <div class="section1Location">
+          <h2>Located at 4703 NE Hazel Dell Ave, Vancouver, WA, 98663</h2>
           <p>
 
           </p>
         </div>
 		  </div>
+
+      <div id="map">
+        <script>
+          function initMap() {
+            var uluru = {lat: 45.6561536, lng: -122.6663053};
+            var map = new google.maps.Map(document.getElementById('map'), {
+              zoom: 14,
+              center: uluru
+            });
+
+            var marker = new google.maps.Marker({
+              position: uluru,
+              map: map
+            });
+          }
+        </script>
+        <script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyClEME3GAzg157xOfHf2Md0MtAo-M_z_S0&callback=initMap">
+        </script>
+      </div>
 
   		<div class="footer">
         <ul>
