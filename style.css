@@ -60,7 +60,7 @@ p {
 /* Cover styling section */
 
 #cover {
-  background: url("https://static.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg") no-repeat center bottom;
+  background: url("mechanic-tools.jpeg") no-repeat center bottom;
   background-attachment: fixed;
   background-size: cover;
   height: 600px;
