@@ -1,7 +1,14 @@
+/* General tag styling section */
 body {
   padding:0;
   margin:0;
 }
+
+p {
+  font-family: 'Abel', sans-serif;
+}
+
+/* Navigation styling section */
 
 .navigation {
   background-color: rgba(255, 255, 255, 0.9);
@@ -11,7 +18,7 @@ body {
   left: 0;
   top: 0;
   width: 100%;
-  z-index: 10000;
+  z-index: 10000; /* Ensures navigation bar is always on top */
 }
 
 .navigation ul {
@@ -21,10 +28,28 @@ body {
 .navigation li {
   color:#14213D;
   font-family: 'Abel', sans-serif;
-  display: inline-block;
+  display: inline-block; /* Displays each li item horizontally */
   font-size: 20px;
   font-weight: 300;
   margin: 16px 24px;
+}
+
+.navigation a:link {
+  text-decoration: none;
+  color: black;
+}
+
+.navigation a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.navigation a:hover {
+  text-decoration: none;
+}
+
+.navigation a:active {
+  text-decoration: none;
 }
 
 #logo {
@@ -32,8 +57,10 @@ body {
   font-size: 30px;
 }
 
+/* Cover styling section */
+
 #cover {
-  background: url("https://static.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg") no-repeat center bottom;
+  background: url("mechanic-tools.jpeg") no-repeat center bottom;
   background-attachment: fixed;
   background-size: cover;
   height: 600px;
@@ -57,6 +84,8 @@ body {
 .cover-content a {
   color: #FFF;
 }
+
+/* Sections styling section */
 
 .items {
   width:100%;
@@ -85,30 +114,6 @@ body {
 .section1Body h2 {
   font-family: 'Raleway', sans-serif;
   color: rgb(22, 44, 205);
-}
-
-p {
-  font-family: 'Abel', sans-serif;
-}
-
-/* Link section */
-
-.navigation a:link {
-  text-decoration: none;
-  color: black;
-}
-
-.navigation a:visited {
-  text-decoration: none;
-  color: black;
-}
-
-.navigation a:hover {
-  text-decoration: none;
-}
-
-.navigation a:active {
-  text-decoration: none;
 }
 
 /* Services section */
